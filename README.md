@@ -11,41 +11,14 @@ npm install detect-dependencies-hook
 
 ## api
 
+使用useDetectDependencyEffect代替useEffect
+
 useDetectDependencyEffect
 - effect: React.EffectCallback
 - dependencies: React.DependencyList
 - diffCallback?: (diffs: any[]) => void
 
-
 ## examples
-
-```js
-export default function App() {
-  const [random, setRandom] = useState(0);
-  const [random2, setRandom2] = useState(0);
-
-  useEffect(() => {
-    console.log("effect is fired");
-  }, [random, random2]);
-
-  return (
-    <div>
-      <div
-        onClick={() => {
-          setRandom(Math.random());
-          setTimeout(() => {
-            setRandom2(Math.random());
-          }, 1000);
-        }}
-      >
-        update
-      </div>
-    </div>
-  );
-}
-```
-![](https://raw.githubusercontent.com/ooooevan/detect-dependencies-hook/master/images/useEffect.gif)
-
 
 ```js
 export default function App() {
