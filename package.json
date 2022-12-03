@@ -1,7 +1,7 @@
 {
   "name": "detect-dependencies-hook",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "检测useEffect哪个依赖触发更新 detect which variable in useEffect's dependency array triggers re-fire",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
