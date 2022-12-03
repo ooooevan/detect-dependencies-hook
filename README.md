@@ -9,7 +9,7 @@ detect which variable in useEffect's dependency array triggers re-fire<br>
 npm install detect-dependencies-hook
 ```
 
-### api
+## api
 
 useDetectDependencyEffect
 - effect: React.EffectCallback
@@ -18,7 +18,6 @@ useDetectDependencyEffect
 
 
 ## examples
-![](https://raw.githubusercontent.com/ooooevan/detect-dependencies-hook/master/images/detect.gif)
 
 ```js
 export default function App() {
@@ -45,7 +44,8 @@ export default function App() {
   );
 }
 ```
-![](https://raw.githubusercontent.com/ooooevan/detect-dependencies-hook/master/images/detect.gif)
+![](https://raw.githubusercontent.com/ooooevan/detect-dependencies-hook/master/images/useEffect.gif)
+
 
 ```js
 export default function App() {
@@ -77,6 +77,7 @@ export default function App() {
   );
 }
 ```
+![](https://raw.githubusercontent.com/ooooevan/detect-dependencies-hook/master/images/detect.gif)
 
 ## link
 
