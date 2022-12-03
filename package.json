@@ -1,0 +1,30 @@
+{
+  "name": "detect-dependencies-hook",
+  "version": "0.0.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "types": "index.d.ts",
+  "author": "ooooevan@163.com",
+  "license": "ISC",
+  "homepage": "https://www.npmjs.com/package/detect-dependencies-hook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooooevan/detect-dependencies-hook.git"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0"
+  },
+  "files": [
+    "index.js",
+    "index.ts",
+    "README.md",
+    "index.js.map",
+    "tsconfig.json"
+  ]
+}
