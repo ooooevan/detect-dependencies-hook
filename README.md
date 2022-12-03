@@ -1,8 +1,8 @@
 # detect-dependencies-hook
 
-detect which variable in useEffect's dependency array triggers a function re-fire<br>
+detect which variable in useEffect's dependency array triggers re-fire<br>
 
-检测useEffect中那个依赖触发的更新
+检测useEffect中那个依赖触发了更新
 
 ## install
 ```
@@ -18,7 +18,8 @@ useDetectDependencyEffect
 
 
 ## examples
-![](images/useEffect.gif)
+![](https://raw.githubusercontent.com/ooooevan/detect-dependencies-hook/master/images/detect.gif)
+
 ```js
 export default function App() {
   const [random, setRandom] = useState(0);
@@ -44,7 +45,8 @@ export default function App() {
   );
 }
 ```
-![](./images/detect.gif)
+![](https://raw.githubusercontent.com/ooooevan/detect-dependencies-hook/master/images/detect.gif)
+
 ```js
 export default function App() {
   const [random, setRandom] = useState(0);
